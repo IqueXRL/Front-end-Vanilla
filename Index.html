@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Fotografo</title>
+
+    <link rel="stylesheet" href="style.css"/>
+    <script src="script.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Menu-->
+    <header>
+        <img src="Imagens/camera-branca.webp" class="logo-menu"/>
+        <nav>
+            <ul class="menu-navegation " id="menu-navegation">
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+            <div class="menu-burger" onclick="exibeDropdown()">
+                <div class="barrinha-burger"></div>
+                <div class="barrinha-burger"></div>
+                <div class="barrinha-burger"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!--Seção 1 - Paralax-->
+    <div class="container-1">
+        <h1 class="texto-container-1">Registre momentos inesqueciveis</h1>
+        <p style="font-size: 20px; color: #fff;">Transformando momentos em memórias eternas</p>
+        
+        <button class="botao-contato">Entre em contato</button>
+    </div>
+
+    <!-- Seção 2 - icones-->
+    <div class="container-2" id="servicos">
+        <p class="titulo-secao">Serviços</p>
+        <div class="icones-box">
+            <div class="caixa-de-icone">
+                <img src="Imagens/image 11.webp" alt="" class="icone-servico">
+                <p class="texto-icone">Casamentos</p>
+            </div>
+
+            <div class="caixa-de-icone">
+                <img src="Imagens/image 12.webp" alt="" class="icone-servico">
+                <p class="texto-icone">Aniversários</p>
+            </div>
+
+            <div class="caixa-de-icone">
+                <img src="Imagens/image 13.webp" alt="" class="icone-servico">
+                <p class="texto-icone">Eventos</p>
+            </div>
+
+            <div class="caixa-de-icone">
+                <img src="Imagens/image 14.webp" alt="" class="icone-servico">
+                <p class="texto-icone">Filmagem</p>
+            </div>
+
+            <div class="caixa-de-icone">
+                <img src="Imagens/image 15.webp" alt="" class="icone-servico">
+                <p class="texto-icone">Edição</p>
+            </div>
+
+            <div class="caixa-de-icone">
+                <img src="Imagens/image 16.webp" alt="" class="icone-servico">
+                <p class="texto-icone">Edição</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Seção 3 - Abas-->
+    <div class="container-3">
+        <div class="controle-abas">
+            <button class="botao-abas-fotos botao-branco" onclick="exibeAbaFoto()">Fotografias</button>
+            <button class="botao-abas-filmaker botao-branco" onclick="exibeAbaFilmaker()">Filmaker</button>
+        </div>
+        <div class="section-abas">
+
+            <div class="section-fotos " >
+                <img src="Imagens/casal.webp" class="foto-section-abas"/>
+                <div class="abas-textos">
+                    <h2>Registre momentos inesqueciveis</h2>
+                    <p>Se você está procurando eternizar momentos especiais, conte comigo e minha equipe de fotografia profissional. Combinando habilidade técnica e sensibilidade artística, capturamos cada sorriso, lágrima e abraço com precisão e emoção. Do início ao fim do seu evento, estamos dedicados a criar memórias que durarão para sempre. Deixe-nos fazer parte da sua história e transformar seus momentos em imagens que você irá amar e valorizar para sempre.</p>
+                </div>
+            </div>
+
+            <div class="section-filmaker ">
+                <img src="Imagens/filmaker.webp" class="foto-section-abas"/>
+                <div class="abas-textos">
+                    <h2>Gravações profissionais</h2>
+                    <p>Quer transformar seus momentos especiais em filmes que contam histórias cativantes? Conte com nossa equipe de filmmaking para capturar cada momento, cada emoção e cada detalhe com maestria cinematográfica. Desde casamentos deslumbrantes até festas inesquecíveis, estamos aqui para transformar suas memórias em obras cinematográficas que você vai querer assistir repetidamente. Deixe-nos criar um filme que não apenas documenta, mas também celebra sua jornada única e suas preciosas lembranças.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Seção 4 Scroll-->
+    <div class="container-4" id="sobre">
+        <div class="scroll-section">
+            <h2>Sobre mim</h2>
+            <p>Sou apaixonado por capturar os momentos mais preciosos da vida das pessoas, congelando instantes de felicidade e amor através da lente da minha câmera. Meu nome é Lucas, e sou um fotógrafo profissional especializado em festas e casamentos.
+                <br><br>
+                Minha jornada no mundo da fotografia começou de maneira despretensiosa. Ainda jovem, descobri minha paixão pela arte de contar histórias através das imagens. Com uma câmera em mãos, comecei a explorar o mundo ao meu redor, buscando capturar a beleza oculta nos detalhes mais simples. À medida que minha habilidade técnica e minha visão artística se desenvolviam, percebi que queria transformar essa paixão em minha profissão.
+                <br><br>
+                Decidi dedicar-me integralmente à fotografia de festas e casamentos, pois acredito que esses eventos são momentos únicos e memoráveis na vida das pessoas. Cada casamento, cada festa, é uma oportunidade de testemunhar a alegria, o amor e a emoção em sua forma mais pura. É uma honra para mim ser escolhido para documentar esses momentos tão especiais.
+                <br><br>
+                Meu estilo de trabalho é centrado na captura de momentos autênticos e espontâneos. Prefiro registrar as emoções genuínas das pessoas sem interferir muito na cena. Acredito que as melhores fotografias são aquelas que contam uma história real, cheias de vida e emoção.
+                <br><br>
+                Além disso, busco sempre estabelecer uma conexão genuína com meus clientes. Entendo a importância de construir uma relação de confiança e empatia para que eles se sintam à vontade diante da câmera. Para mim, cada sessão fotográfica não é apenas um trabalho, mas sim uma oportunidade de criar laços e memórias duradouras com as pessoas que cruzam o meu caminho.
+                <br><br>
+                Em resumo, sou um fotógrafo apaixonado pelo que faço, comprometido em capturar os momentos mais significativos da vida das pessoas com autenticidade e sensibilidade. Estou sempre em busca de novas formas de aprimorar minha arte e de proporcionar aos meus clientes uma experiência única e inesquecível.</p>
+        </div>
+        <div class="foto-sobre-mim"></div>
+    </div>
+
+    <!--Sec 5 - Slider-->
+    <!--<div class="container-5">
+        <p class="titulo-secao">Melhores fotos 2024</p>
+        <div class="caixa-slider-controles">
+            <div class="controles-slider">
+                <button id="return-slide" onclick="returnSlide()">&#9204;</button>
+                <button id="next-slide" onclick="nextSlide()">&#9205;</button>
+            </div>
+            <div class="slider-box">
+                <div class="slides">
+                    <div class="foto-slide" style="background-image: url(Imagens/slide0.webp);"></div>
+                    <div class="foto-slide" style="background-image: url(Imagens/slide1.webp);"></div>
+                    <div class="foto-slide" style="background-image: url(Imagens/slide2.webp);"></div>
+                        
+                </div>
+            </div>
+        </div>
+    </div>-->
+    <div class="container-5">
+        <p class="titulo-secao" style="margin-bottom: 32px;">Melhores fotos 2024</p>
+        <div class="slideshow-container">
+            <div class="mySlides" style="background-image: url(Imagens/slide0.webp);"></div>
+        
+            <div class="mySlides" style="background-image: url(Imagens/slide1.webp);"></div>
+        
+            <div class="mySlides" style="background-image: url(Imagens/slide2.webp);"></div>
+        
+        
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align: center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+        
+
+        <!--Section 6  - Formulario-->
+        <div class="container-6" id="contato">
+            
+            <img src="Imagens/grandmother-spending-quality-time-with-family.webp" class="form-img">
+
+            <div>
+                <p class="titulo-secao" style="color: #242424; margin:32px 0px">Entre em contato</p>
+
+                <form action="" method="get" class="form">
+                    <label>Nome:<br>
+                        <input type="text">
+                    </label>
+
+                    <label>Email:<br>
+                        <input type="email">
+                    </label>
+
+                    <label>Número:<br>
+                        <input type="number">
+                    </label>
+                    
+                    <input type="submit" class="button-form">
+                </form>
+            </div>
+        </div>
+
+        <!--Footer-->
+        <footer>
+                <ul>
+                    <li style="font-size: 24px;">Caique Thomaz</li>
+                    <li class="li-contato"><a>(19) 9 9401-7111</a></li>
+                    <li class="li-contato"><a>c.stopiglia@gmail.com</a></li>
+                </ul>
+        </footer>
+    
+</body>
+</html>

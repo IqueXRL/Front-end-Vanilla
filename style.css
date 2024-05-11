@@ -1,0 +1,490 @@
+
+
+
+body{
+    margin: 0;
+    max-width: 100vw;
+    background: #262626;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+p,a, h2{
+    color:#fff ;
+    margin: 0;
+    text-decoration: none;
+}
+h1{
+    font-weight: 600;
+    font-size: 60px;
+    color: #fff;
+    margin: 0px;
+}
+
+.titulo-secao{
+    margin: 0;
+}
+
+
+/*Menu*/
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 64px;
+    z-index: 2;
+    background-color: #242424;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+
+.menu-burger div{
+    background-color: rgb(85, 85, 85);
+    width: 28px;
+    height: 2px;
+    margin: 8px;
+    display: none;
+}
+
+
+.menu-navegation{
+    display: flex;
+    gap:20px;
+}
+
+.menu-navegation li:hover{
+    transform: translateY(-6px);
+    transition: 0.5s;
+}
+
+li{
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: 500;
+    color:#fff;
+    background-color: #242424;
+}
+
+.logo-menu{
+    width: 70px;
+}
+
+/* Seção 1*/
+
+.container-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(Imagens/silhouette-photographer-who-shoots-sunset-mountains.webp) ;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height:600px;
+    padding: 32px 64px;
+    gap: 16px;
+}
+
+.botao-contato{
+    width: 186px;
+    height: 48px;
+    border-radius: 30px;
+    border-style: none;
+    background-color: #ffffff;
+    font-size: 20px;
+}
+
+.botao-contato:hover{
+    transform: translateY(-6px);
+    transition: 0.5s;
+}
+
+/*Sec 2*/
+.container-2{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    padding: 64px;
+    
+}
+
+.icones-box{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    row-gap: 32px;
+    width: 800px;
+}
+.titulo-secao{
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+}
+.caixa-de-icone{
+    display: flex;
+    flex-direction: column;
+    width: 260px;
+    gap: 8px;
+    align-items: center;
+}
+
+.icone-servico{
+    width: 100px;
+}
+
+.texto-icone{
+    font-size: 28px;
+    margin: 0;
+}
+
+/*Sec 3 Abas*/
+.container-3{
+    display:flex ;
+    flex-direction: column;
+    padding: 32px 64px;
+    align-items: center;
+    background-image: url(Imagens/11980.webp);
+    background-size: cover;
+    background-position: center bottom;
+}
+
+.botao-branco{
+    background-color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 12px;
+    border-radius: 60px;
+    border: none;
+}
+
+.botao-branco:hover{
+    background-color: #242424;
+    color: #fff;
+    border-style: solid;
+    border-color: #fff;
+}
+
+.section-abas{
+    border-style: solid;
+    border-color: #242424;
+    background-color: #242424;
+    border-radius: 20px;
+    padding: 16px;
+    display: none;
+    
+}
+
+.exibe-abas{
+    display: flex;
+}
+.controle-abas{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 32px;
+    gap: 32px;
+}
+.section-fotos{
+    display: none;
+    align-items: center;
+    background-color: #242424;
+    border-radius: 20px;
+    gap:16px;
+
+}
+.exibe-section-fotos{
+    display: flex;
+}
+
+.section-filmaker{
+    display: none;
+    align-items: center;
+    background-color: #242424;
+    border-radius: 20px;
+    gap:16px;
+
+}
+.exibe-section-filmaker{
+    display: flex;
+}
+
+.foto-section-abas{
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    border-radius: 16px;
+}
+
+.abas-textos{
+    padding-left: 32px;
+    width: 500px;
+    color: #fff;
+    padding-right: 32px;
+}
+
+/*Sec 4 - Scrol*/
+
+.container-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+    gap: 32px;
+    
+    
+}
+
+.scroll-section{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    max-height: 400px;
+    overflow-x: hidden; 
+    gap: 15px; 
+}
+
+.scroll-section h2{
+    font-size: 36px;
+}
+
+.foto-sobre-mim{
+    display: flex;
+    height: 400px;
+    width: 300px;
+    flex-direction: column;
+    background-image: url(Imagens/young-man-working-his-photography-studio.webp);
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+/*Sec 5 - Slider*/
+/*
+.container-5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px 64px;
+}
+
+.slider-box{
+    width: 900px;
+    overflow-x: hidden
+}
+
+.slides{
+    width: max-content;
+    display: flex;
+}
+
+.foto-slide{
+    background-size: cover;
+    width: 900px;
+    height: 500px;
+}
+.caixa-slider-controles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.controles-slider{
+    width: max-content;
+    display: flex;
+    gap: 950px;
+    position: absolute;
+}
+*/
+
+.container-5{
+    padding: 64px 64px;
+}
+
+.slideshow-container {
+    max-width: 900px;
+    position: relative;
+    margin: auto;
+  }
+
+  .mySlides{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-position: center center;
+  }
+  
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+  }
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .dot {
+    cursor: pointer;
+    height: 13px;
+    width: 13px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active,.dot:hover {
+    background-color: #717171;
+  }
+
+/*Sec 6 - Formulario*/
+.container-6{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 64px 64px;
+    column-gap: 32px;
+    background-image: url(Imagens/fundoCameras.webp);
+    background-size: cover;
+    background-position: center center;
+}
+
+.form-img{
+    width: 500px;
+}
+.form{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    border-width: 1px;
+    border-radius: 12px;
+    padding: 32px;
+    gap: 16px;
+    background-color: #fff;
+}
+
+input{
+    width: 100%;
+    border-radius: 12px;
+    height: 24px
+}
+.button-form{
+    width: 100px;
+    background-color: none;
+    height: 30px;
+}
+
+/*Footer*/
+footer{
+    background-color: #242424;
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul{
+    margin: 0;
+    text-align: center;
+}
+
+.li-contato{
+    font-size: 20px;
+    padding: 4px;
+}
+
+  /*MOBILE*/
+@media (width <= 700px){
+   
+    h1{
+        font-size: 40px;
+    }
+    /*Header*/
+    .menu-burger div{
+        display: block;
+    }
+
+   .menu-navegation{
+    display: none;
+    flex-direction: column;
+    position:absolute;
+    transform: translate(-50px,96px);
+    width: 100px;
+    height: 130px;
+    background-color: #242424;
+   }
+   .exibe-dropdown{
+    display: flex;
+}
+
+    /*Sec 1 */
+    .container-1{
+        padding: 32px 16px;
+        height: 500px;
+        
+    }
+
+    /*Sec 2 icones*/
+    .icones-box{
+        width: 100%;
+    }
+
+    /*sec 3 - abas*/
+
+    .section-fotos, .section-filmaker{
+        flex-direction: column;
+        max-width: 100%;
+    }
+    .section-abas{
+        max-width: 100%;
+        border: none;
+    }
+    .foto-section-abas{
+        width: 300px;
+        height: 200px;
+        border-radius: 16px;
+    }
+    .abas-textos{
+        width: 300px;
+        text-align: center;
+    }
+  
+    /*sec 4 - scroll*/
+    .container-4{
+        flex-direction: column;
+        padding: 32px 16px;
+    }
+
+    .foto-sobre-mim{
+        order: 1;
+    }
+    .scroll-section{
+        order: 2;
+        width: 100%;
+    }
+}
+
+/*Animações*/
